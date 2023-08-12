@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--套件测试：套件配置文件-->
+
+
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.course.testng.suite.SuiteConfig"/>
+            <class name="com.course.testng.suite.LoginClass"/>
+        </classes>
+
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.testng.suite.SuiteConfig"/>
+            <class name="com.course.testng.suite.PayTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--参数化文件：用xml文件传参：-->
+
+<suite name="param">
+    <test name="paramData">
+        <classes>
+            <parameter name="name" value="zhangsan"/>
+            <parameter name="age" value="18"/>
+            <class name="com.course.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+
+</suite>
